@@ -1,5 +1,28 @@
-.App {
+.box{
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.box-text {
+  font-size: large;
   text-align: center;
+}
+
+.App {
+  margin: 30px;
 }
 
 .App-logo {
